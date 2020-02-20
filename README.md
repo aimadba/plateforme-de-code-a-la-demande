@@ -4,7 +4,7 @@ L'architecture est compose de deux acteurs:
 - un commanditaires qui proposent des taches a executer
 - un Worker qui choisissent les taches a executer
 
-La plateforme est constituée de différents services d’infrastructure:
+La plateforme est constituée de différents services d’infrastructure: (Flask / RabbitMQ / Docker / Requests / Python / API / GIT )
 - Un service de publication des tâches
 - Un service de stockage des codes à exécuter
 - Un service de stockage des données associées aux codes à exécuter
