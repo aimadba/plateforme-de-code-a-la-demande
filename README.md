@@ -11,12 +11,12 @@ La plateforme est constituée de différents services d’infrastructure:
 
 
 Le fonctionnement:
-1 Un commanditaire publie un ensemble de tâches réaliser.
-2 Un worker va chercher sur la plateforme de publication un job à effectue:
+- Un commanditaire publie un ensemble de tâches réaliser.
+- Un worker va chercher sur la plateforme de publication un job à effectue:
   - Si le worker ne détient pas le code associé, il télécharge le code à exécuter.
   - Le worker installe et configure, si nécessaire, le code à exécuter.
   - Le worker télécharge,si nécessaire,les données nécessaires à l’exécution de la tâche choisie.
   - Le worker exécute le code en exploitant les données précédemment obtenues.
   - Le worker stocke le résultat obtenu sur le service de stockage des résultats.
-3 Le commanditaire récupère le résultat obtenus.
+- Le commanditaire récupère le résultat obtenus.
  
